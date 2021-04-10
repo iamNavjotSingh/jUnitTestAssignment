@@ -117,7 +117,7 @@ public class MatrixHelixMorphTest {
         int[][] expOutput = {{1, 3, 5, 7}, {16, 17, 19, 2}, {14, 24, 21, 4}, {12, 22, 23, 6}, {10, 20, 18, 8}, {15, 13, 11, 9}};
         assertTrue(testEqual(expOutput, MatrixHelixMorph.helix(inMatrix)));
     }
-
+    
     @Test
     public void testMatrix0x0(){
         int[][] inMatrix = {};
